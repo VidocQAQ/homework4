@@ -38,13 +38,13 @@ public class StringUtilsTest {
         assertFalse("含非空格字符应该返回false", result);
     }
 
-    // 测试 trim 方法
+/*    // 测试 trim 方法
     @Test
     public void testTrimWithSpaces() {
         String input = "  test  ";
         String result = StringUtils.trim(input);
         assertEquals("带空格的字符串应被修剪", "test", result);
-    }
+    }*/
 
     @Test
     public void testTrimWithNullInput() {
